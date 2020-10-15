@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "algorithm/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/algorithm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/algorithm.dll": {}
+        }
+      },
+      "ReadAndWriteData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ReadAndWriteData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReadAndWriteData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "algorithm/1.0.0": {
+      "type": "project",
+      "path": "../algorithm/algorithm.csproj",
+      "msbuildProject": "../algorithm/algorithm.csproj"
+    },
+    "ReadAndWriteData/1.0.0": {
+      "type": "project",
+      "path": "../ReadAndWriteData/ReadAndWriteData.csproj",
+      "msbuildProject": "../ReadAndWriteData/ReadAndWriteData.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ReadAndWriteData >= 1.0.0",
+      "algorithm >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\MainProject\\MainProject\\MainProject.csproj",
+      "projectName": "MainProject",
+      "projectPath": "C:\\Users\\USER\\Desktop\\MainProject\\MainProject\\MainProject.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\MainProject\\MainProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\USER\\Desktop\\MainProject\\algorithm\\algorithm.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\MainProject\\algorithm\\algorithm.csproj"
+            },
+            "C:\\Users\\USER\\Desktop\\MainProject\\ReadAndWriteData\\ReadAndWriteData.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\MainProject\\ReadAndWriteData\\ReadAndWriteData.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

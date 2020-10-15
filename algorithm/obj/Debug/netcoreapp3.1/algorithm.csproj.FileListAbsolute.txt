@@ -1,0 +1,8 @@
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\bin\Debug\netcoreapp3.1\algorithm.deps.json
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\bin\Debug\netcoreapp3.1\algorithm.dll
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\bin\Debug\netcoreapp3.1\algorithm.pdb
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\obj\Debug\netcoreapp3.1\algorithm.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\obj\Debug\netcoreapp3.1\algorithm.AssemblyInfo.cs
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\obj\Debug\netcoreapp3.1\algorithm.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\obj\Debug\netcoreapp3.1\algorithm.dll
+C:\Users\USER\Desktop\למידה מרחוק יד\MainProject\algorithm\obj\Debug\netcoreapp3.1\algorithm.pdb
